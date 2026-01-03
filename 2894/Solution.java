@@ -19,11 +19,11 @@ class Solution {
 		}
 		else{
 			return false;
-		}
-        
+		}     
 	}
 }
 
+//it can be solve by one line:
 class Solution {
     public int differenceOfSums(int n, int m) {
     return IntStream.rangeClosed(1,n).map(i->i%m == 0? -i:i).sum();    
