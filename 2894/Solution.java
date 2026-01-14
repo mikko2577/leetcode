@@ -9,6 +9,12 @@ class Solution {
             else{
                 result = result - i;
             }
+/*{5,6,9,11} 
+grouped can be divide by 3 ,m=3
+5,11   6,9
+num1-num2
+(5+11)-(6+9)
+*/
         }
         return result;
     }
@@ -29,3 +35,17 @@ class Solution {
     return IntStream.rangeClosed(1,n).map(i->i%m == 0? -i:i).sum();    
     }
 }
+
+/*You are given positive integers n and m.
+
+Define two integers as follows:
+
+num1: The sum of all integers in the range [1, n] 
+(both inclusive) that are not divisible by m.
+
+num2: The sum of all integers in the range [1, n] (
+both inclusive) that are divisible by m.
+
+Return the integer num1 - num2.
+
+*/
