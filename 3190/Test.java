@@ -36,7 +36,7 @@ print(array[i]):value
 print(function(array[i])):map.new value
 
 {beef, pork, banana} A
-        |			map
+        |	    map
         V            B
 {meat, meat, fruit}
 */
