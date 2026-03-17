@@ -8,7 +8,8 @@ class Solution {
             }
             else{
                 result = result - i;
-            }
+            
+			}
         }
         return result;
     }
